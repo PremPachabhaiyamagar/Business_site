@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poiret One', cursive;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 3.5rem;
+}
+h3{
+    font-size: 3rem;
+}
+.row{
+    margin: 0;
+}
+li,p,a{
+    font-size: 1.6rem;
+}
+/* navbar starts */
+.logo{
+    font-size: 2.25rem;
+    font-weight: bold;
+    display: initial;
+    text-shadow: 3px 2px 5px rgb(0,0,0,.1);
+}
+.navbar-light .navbar-nav .nav-link{
+    font-size: 1.9rem;
+    padding-left: 1rem;
+    letter-spacing: 0.1rem;
+    text-transform: capitalize;
+}
+/* navbar style ends */
+/* hero section starts */
+.hero-text h1{
+    font-size: 5.5rem;
+    line-height: 1.5;
+    text-shadow: 3px 4px 6px rgb(0,0,0,.1);
+    letter-spacing: .125rem;
+}
+.hero-text h1:nth-child(2){
+    font-weight: bold;
+}
+.hero-text,
+.our-services,
+label{
+    font-size: 1.7rem;
+    letter-spacing: .2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+}
+.hero-text p span{
+    font-weight: bold;
+    color: #000;
+}
+.btn-style{
+    padding:0.75rem 1.563rem;
+    color: #fff;
+    font-size: 1.6rem;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -o-transition: .5s all;
+    -ms-transition:.5s all;
+    transition: .5s all;
+}
+/* hero section style end */
+/* about-style starts */
+
+.about-style {
+    margin: 10rem 0;
+  }
+  
+  .about-style .main-heading,
+  .service-style .main-heading,
+  .contact-style .main-heading {
+    font-size: 5rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+  }
+  
+  .about-style .sub-heading,
+  .service-style .sub-heading,
+  .contact-style .sub-heading {
+    font-size: 3rem;
+    letter-spacing: 3px;
+    line-height: 2;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  /* our services style starts  */
+  
+  .service-style {
+    margin-bottom: 10rem;
+  }
+  
+  .box {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .our-services {
+    margin-top: 75px;
+    padding-bottom: 30px;
+    padding: 0 30px;
+    min-height: 198px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0 0 25px 0 rgba(20, 27, 202, 0.17);
+  }
+  
+  .our-services .icon {
+    margin-bottom: -21px;
+    transform: translateY(-50%);
+    text-align: center;
+  }
+  
+  .our-services h4 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .our-services:hover h4,
+  .our-services:hover p {
+    color: #fff;
+  }
+  
+  .speedup:hover {
+    box-shadow: 0 0 25px 0 rgba(33, 39, 221, 0.2);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #f33474 0%, #f55b2a 50%);
+  }
+  
+  .settings:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.2);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #49d0da 0%, #210c59 50%);
+  }
+  
+  .privacy:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.2);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #5035ec 0%, #44a2f6 50%);
+  }
+  
+  .backups:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.2);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #fd7f30 0%, #fdb642 50%);
+  }
+  
+  .ssl:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.2);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #974eff 0%, #5a57fb 50%);
+  }
+  
+  .database:hover {
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.2);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg, #27b88d 0%, #22dd73 50%);
+  }
+  /* our services style ends  */
+  
+  /* contact us starts here  */
+  
+  .contact-style {
+    margin: 10rem 0;
+  }
+  
+  label {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+  }
+  
+  .form-control {
+    padding: 1.5rem 1rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+  
+  #emailHelp,
+  ::placeholder {
+    font-size: 1.5rem;
+  }
+  
+  ::placeholder {
+    font-weight: 600;
+  }
+  
+  /* footer sections ends  */
+  
+  footer {
+    background: rgb(221, 217, 217);
+  }
+  
+  footer p {
+    padding: 1rem 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  /* media queries part starts here  */
+  
+  @media (max-width: 768px) {
+    #logo {
+      font-size: 2.5rem;
+    }
+  
+    .hero-text h1 {
+      font-size: 3rem;
+    }
+  
+    figure {
+      margin: 5rem 0;
+    }
+  
+    figure img {
+      min-width: 100%;
+    }
+  
+    .hero-text p,
+    .our-services p,
+    label {
+      font-size: 1.5rem;
+    }
+  
+    .about-style .sub-heading,
+    .service-style .sub-heading,
+    .contact-style .sub-heading {
+      font-size: 2rem;
+    }
+  }
